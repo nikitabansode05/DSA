@@ -25,8 +25,8 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.11.0</version>
             <configuration>
-                <source>17</source>   <!-- or 8, 11, etc. -->
-                <target>17</target>
+                <source>24</source>   <!-- or 8, 11, etc. -->
+                <target>24</target>
             </configuration>
         </plugin>
 
