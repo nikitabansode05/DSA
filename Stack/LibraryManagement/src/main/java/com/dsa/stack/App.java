@@ -19,9 +19,11 @@ public class App
         shelf1.push(book4);
         shelf1.push(book5);
 
+        System.out.println("********************************************");
         shelf1.display();
-
+        System.out.println("********************************************");
         shelf1.pop();
-
+        System.out.println("********************************************");
+        shelf1.display();
     }
 }

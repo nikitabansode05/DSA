@@ -27,7 +27,7 @@ public class Shelf {
     public void pop(){
         top=4;
         top--;
-        for(int i=0;i<5;i++){
+        for(int i=0;i<=top;i++){
             System.out.println(books[i]);
         }
     }
@@ -37,7 +37,7 @@ public class Shelf {
     }
 
     public void display(){
-        for(int i=4;i<=0;i--){
+        for(int i=top;i>=0;i--){
             System.out.println(books[i]);
         }
     }
