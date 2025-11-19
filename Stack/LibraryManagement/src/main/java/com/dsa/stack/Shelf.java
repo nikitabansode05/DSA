@@ -1,7 +1,5 @@
 package com.dsa.stack;
 
-import com.dsa.stack.*;
-
 public class Shelf {
     Books [] books=new Books[5];
     int top=-1;
