@@ -25,5 +25,8 @@ public class App
         shelf1.pop();
         System.out.println("********************************************");
         shelf1.display();
+        System.out.println("********************************************");
+        shelf1.peek(4);
+        
     }
 }

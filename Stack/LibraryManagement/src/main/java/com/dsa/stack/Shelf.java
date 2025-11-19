@@ -27,13 +27,13 @@ public class Shelf {
     public void pop(){
         top=4;
         top--;
-        for(int i=0;i<=top;i++){
+        for(int i=top;i>=0;i--){
             System.out.println(books[i]);
         }
     }
 
-    public void peek(){
-
+    public void peek(int index){
+        System.out.println(books[index]);
     }
 
     public void display(){
