@@ -43,11 +43,21 @@ public class LinkedList {
                 current=null;
                 return;
             }
-            
-        }
-           
-        
+           }
     }
+
+    public void search(int data){
+        Node current=startNode;
+        int count=1;
+        while(current.next!=null){
+            current=current.next;
+            count++;
+            if(current.data==data){
+                System.out.println("Your data is : "+data+" at position : "+count);
+            }
+        }
+    }
+
 
     public void display(){
         System.out.println("**********************************************************");
