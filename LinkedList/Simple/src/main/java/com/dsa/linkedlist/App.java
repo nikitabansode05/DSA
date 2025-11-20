@@ -8,6 +8,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       LinkedList ll=new LinkedList(0);
+       ll.insert(1);
+       ll.insert(2);
+       ll.insert(3);
+
+       ll.display();
+       ll.delete(2);
+       ll.display();
     }
 }
