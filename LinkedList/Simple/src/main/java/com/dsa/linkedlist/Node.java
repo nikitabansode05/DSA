@@ -1,6 +1,7 @@
 package com.dsa.linkedlist;
 
 public class Node{
+    
     Node next;
     int data;
 
