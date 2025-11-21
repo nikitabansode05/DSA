@@ -2,66 +2,65 @@ package com.dsa.linkedlist;
 
 public class LinkedList {
     
-    Node startNode;
+    Node head;
+    Node previousNode;
+    Node toDelete;
 
     public LinkedList(){
-        startNode.data=0;
-        startNode.next=null;
-    }
-
-    public LinkedList(int data){
-        startNode=new Node(data);
+       head=null;
     }
 
     public void insert(int data){
 
-        Node newNode=new Node(data);
-
-        if(startNode==null){
-            startNode=newNode;
+        Node theNode=new Node(data);
+        if(head==null){
+            head=theNode;
         }
-
-        Node current=startNode;
-
-        while(current.next !=null){
-            current=current.next;
+        else{
+            Node current=head;
+            while(current.next !=null){
+                current=current.next;  
+            }
+            current.next=theNode; 
         }
-
-        current.next=newNode;
     }
 
-    public void delete(int data){
-        Node current=startNode;
+    public void remove(int data){
         
-           while (current.next!=null) { 
-           System.out.println(current.data);
-            Node previous=current;
-            current=current.next;
-            if(current.data==data){
-                System.out.println(previous.data);
-                previous.next=current.next;
-                current=null;
-                return;
-            }
-           }
+        if (head.data==data) {
+           head=head.next;
+        }
+        else{
+                Node current=toDelete;
+                    if(search(data)){
+                        previousNode.next=current.next;
+                        current=null;
+                }
+        }
+           
     }
 
-    public void search(int data){
-        Node current=startNode;
-        int count=1;
+    public boolean search(int data){
+
+        boolean status=false;
+        Node current=head;
         while(current.next!=null){
+            previousNode=current;
             current=current.next;
-            count++;
             if(current.data==data){
-                System.out.println("Your data is : "+data+" at position : "+count);
+                toDelete=current;
+                status=true;
+                return status;
             }
         }
+        return status;
     }
 
 
     public void display(){
+
         System.out.println("**********************************************************");
-        Node current=startNode;
+        Node current=head;
         while(current !=null){
             System.out.println(current.data);
             current=current.next;

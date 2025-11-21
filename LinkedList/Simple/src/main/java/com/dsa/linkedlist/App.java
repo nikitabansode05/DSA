@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-       LinkedList ll=new LinkedList(0);
+       LinkedList ll=new LinkedList();
        ll.insert(1);
        ll.insert(2);
        ll.insert(3);
@@ -16,8 +16,9 @@ public class App
        ll.insert(67);
 
        ll.display();
-       ll.delete(2);
+       ll.search(2);
+       ll.remove(1);
        ll.display();
-       ll.search(45);
+       
     }
 }
