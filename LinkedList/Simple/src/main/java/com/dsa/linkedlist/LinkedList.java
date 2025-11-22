@@ -50,9 +50,11 @@ public class LinkedList {
             if(current.data==data){
                 toDelete=current;
                 status=true;
+                System.out.println(status);
                 return status;
             }
         }
+        System.out.println(status);
         return status;
     }
 
