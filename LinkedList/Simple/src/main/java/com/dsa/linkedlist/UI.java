@@ -95,7 +95,8 @@ public class UI{
                 case 3: {
                         System.out.println("Enter the data  : ");
                         data=input.nextInt();
-                        list.search(data);
+                        int status=list.search(data);
+                        System.out.println(status);
                     } 
                 break;
 
