@@ -1,6 +1,8 @@
 package com.dsa.linkedlist;
 
-public class Node{
+import java.io.Serializable;
+
+public class Node implements Serializable{
     
     int data;
     Node next;
