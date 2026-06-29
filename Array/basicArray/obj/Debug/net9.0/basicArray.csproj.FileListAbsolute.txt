@@ -1,0 +1,15 @@
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.AssemblyInfoInputs.cache
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.AssemblyInfo.cs
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.sourcelink.json
+D:\GIT\DSA\Array\basicArray\bin\Debug\net9.0\basicArray.exe
+D:\GIT\DSA\Array\basicArray\bin\Debug\net9.0\basicArray.deps.json
+D:\GIT\DSA\Array\basicArray\bin\Debug\net9.0\basicArray.runtimeconfig.json
+D:\GIT\DSA\Array\basicArray\bin\Debug\net9.0\basicArray.dll
+D:\GIT\DSA\Array\basicArray\bin\Debug\net9.0\basicArray.pdb
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.dll
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\refint\basicArray.dll
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.pdb
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\basicArray.genruntimeconfig.cache
+D:\GIT\DSA\Array\basicArray\obj\Debug\net9.0\ref\basicArray.dll
