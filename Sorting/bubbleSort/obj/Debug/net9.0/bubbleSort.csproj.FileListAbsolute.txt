@@ -1,0 +1,15 @@
+D:\GIT\DSA\Sorting\bubbleSort\bin\Debug\net9.0\bubbleSort.exe
+D:\GIT\DSA\Sorting\bubbleSort\bin\Debug\net9.0\bubbleSort.deps.json
+D:\GIT\DSA\Sorting\bubbleSort\bin\Debug\net9.0\bubbleSort.runtimeconfig.json
+D:\GIT\DSA\Sorting\bubbleSort\bin\Debug\net9.0\bubbleSort.dll
+D:\GIT\DSA\Sorting\bubbleSort\bin\Debug\net9.0\bubbleSort.pdb
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.AssemblyInfoInputs.cache
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.AssemblyInfo.cs
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.sourcelink.json
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.dll
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\refint\bubbleSort.dll
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.pdb
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\bubbleSort.genruntimeconfig.cache
+D:\GIT\DSA\Sorting\bubbleSort\obj\Debug\net9.0\ref\bubbleSort.dll
