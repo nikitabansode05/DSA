@@ -182,15 +182,25 @@ Console.WriteLine("Multiplication of matrix is: ");
 int[,] multipliedMatrix=new int[3,3];
 
 int number=0;
-int[,] mulresult=new int[3,3];
+int[,] mulresult=new int[2,2];
 
-for(int i=0;i<3;i++){
-    for(int j=0;j<3;j++){
-        for(int n=0;n<3;n++){
-           number+= (arr1[i,n]*arr2[n,i]);   //(arr1[i,j]*arr2[i,j]+(arr1[i,j+1]*arr2[i+1,j])+(arr1[i,j+2]*arr2[i+2,j]);  
+int[,] arrayy1={
+            {4,5},
+            {2,3}
+};
+
+int[,] arrayy2={
+            {2,3},
+            {1,4}
+};
+
+for(int i=0;i<2;i++){
+    for(int j=0;j<2;j++){
+        mulresult[i,j]=0;
+        for(int n=0;n<2;n++){
+           mulresult[i,j]+= (arrayy1[i,n]*arrayy2[n,j]);  
         }
-        mulresult[i,j]=number;
         Console.Write(mulresult[i,j]+" ");
     }  
-    Console.WriteLine();
+    Console.Write("\n");
 }
