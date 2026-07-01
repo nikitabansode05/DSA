@@ -1,0 +1,15 @@
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.AssemblyInfoInputs.cache
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.AssemblyInfo.cs
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.sourcelink.json
+D:\GIT\DSA\LinkedList\linkList\bin\Debug\net9.0\linkList.exe
+D:\GIT\DSA\LinkedList\linkList\bin\Debug\net9.0\linkList.deps.json
+D:\GIT\DSA\LinkedList\linkList\bin\Debug\net9.0\linkList.runtimeconfig.json
+D:\GIT\DSA\LinkedList\linkList\bin\Debug\net9.0\linkList.dll
+D:\GIT\DSA\LinkedList\linkList\bin\Debug\net9.0\linkList.pdb
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.dll
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\refint\linkList.dll
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.pdb
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\linkList.genruntimeconfig.cache
+D:\GIT\DSA\LinkedList\linkList\obj\Debug\net9.0\ref\linkList.dll
