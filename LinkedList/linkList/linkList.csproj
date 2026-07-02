@@ -8,3 +8,70 @@
   </PropertyGroup>
 
 </Project>
+
+
+<!-- Console.WriteLine("Enter the number of nodes to create :");
+        int number=int.Parse(Console.ReadLine());
+
+        Node current=head;
+        Node next=new Node();
+        for(int i=0;i<number;i++){
+            Console.WriteLine("\nEnter the data in the list :");
+            int data=int.Parse(Console.ReadLine());
+            current.data=data;
+            current=current.next;
+        }
+
+        return head; -->
+
+<!-- public void delete(int data){
+        Console.WriteLine("\nEnter the node to delete : ");
+        int deleteNumber=int.Parse(Console.ReadLine());
+
+        Node temporary=head;
+        Node newList=new Node();
+
+        while(temporary!=null){
+            if(temporary.data==deleteNumber){
+                if(temporary.previous==null){
+                    newList=temporary.next;
+                    newList.previous=null;
+                }else{
+                    Node afterDelete=temporary.previous;
+                    afterDelete.next=temporary.next;
+                }
+            }
+            // Console.WriteLine(newList.data);
+            // newList=newList.next;
+            temporary=temporary.next;
+        }
+
+        Console.WriteLine("After deletion");
+        Node display=head;
+        while(display!=null){
+            Console.Write(display.data+" ");
+            display=display.next;
+        }
+
+    } -->
+
+ <!-- // Node node1=new Node();
+        // Node node2=new Node();
+        // Node node3=new Node();
+        // Node node4=new Node();
+        // Node node5=new Node();
+       
+        // node1.data=3;
+        // node1.next=node2;
+
+        // node2.data=2;
+        // node2.next=node3;
+
+        // node3.data=7;
+        // node3.next=node4;
+
+        // node4.data=5;
+        // node4.next=node5;
+        
+        // node5.data=0;
+        // node5.next=null; -->

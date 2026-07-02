@@ -10,26 +10,36 @@ public class LinkedList{
         this.head=head;
     }
 
-    public Node create(){
-        Console.WriteLine("Enter the number of nodes to create :");
-        int number=int.Parse(Console.ReadLine());
+    public void insert(int data){
+        if(head==null){
+            head=new Node();
+            head.data=data;
+            head.next=null;
+        }
+        else{
+            Node current=head;
+            while(current.next!=null){
+                current=current.next;
+            }
+            Node node=new Node();
+            node.data=data;
+            node.next=null;
+            current.next=node;
+        }
+    }
 
+    public void display(){
         Node current=head;
-        Node next=new Node();
-        for(int i=0;i<number;i++){
-            Console.WriteLine("\nEnter the data in the list :");
-            int data=int.Parse(Console.ReadLine());
-            current.data=data;
+        while(current!=null){
+            Console.Write(current.data+" ");
             current=current.next;
         }
-
-        return head;
     }
 
     public void update(){
-        Console.WriteLine("Enter the number to update :");
+        Console.WriteLine("\nEnter the number to update :");
         int number= int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the number to update with :");
+        Console.WriteLine("\nEnter the number to update with :");
         int newNumber= int.Parse(Console.ReadLine());
 
         Node update=head;
@@ -37,45 +47,21 @@ public class LinkedList{
             if(update.data==number){
                 update.data=newNumber;
             }
-            Console.Write(update.data+" ");
             update=update.next;
         }
     }
 
-   
+    public void delete(){
+        Console.WriteLine("Enter the number to delete : ");
+        int number=int.Parse(Console.ReadLine());
 
-    // public void delete(int data){
-    //     Console.WriteLine("\nEnter the node to delete : ");
-    //     int deleteNumber=int.Parse(Console.ReadLine());
-
-    //     Node temporary=head;
-    //     Node newList=new Node();
-
-    //     while(temporary!=null){
-    //         if(temporary.data==deleteNumber){
-    //             if(temporary.previous==null){
-    //                 newList=temporary.next;
-    //                 newList.previous=null;
-    //             }else{
-    //                 Node afterDelete=temporary.previous;
-    //                 afterDelete.next=temporary.next;
-    //             }
-    //         }
-    //         // Console.WriteLine(newList.data);
-    //         // newList=newList.next;
-    //         temporary=temporary.next;
-    //     }
-
-    //     Console.WriteLine("After deletion");
-    //     Node display=head;
-    //     while(display!=null){
-    //         Console.Write(display.data+" ");
-    //         display=display.next;
-    //     }
-
-    // }
-
-    public void insert(int data){
+        Node current=head;
+        while(current.next!=null){
+            if(current.next.data==number){
+                current.next=current.next.next;
+            }
+            current=current.next;
+        }
 
     }
 }
