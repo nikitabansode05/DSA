@@ -1,0 +1,15 @@
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.AssemblyInfoInputs.cache
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.AssemblyInfo.cs
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.sourcelink.json
+D:\GIT\DSA\LinkedList\doublyLinkedList\bin\Debug\net9.0\doublyLinkedList.exe
+D:\GIT\DSA\LinkedList\doublyLinkedList\bin\Debug\net9.0\doublyLinkedList.deps.json
+D:\GIT\DSA\LinkedList\doublyLinkedList\bin\Debug\net9.0\doublyLinkedList.runtimeconfig.json
+D:\GIT\DSA\LinkedList\doublyLinkedList\bin\Debug\net9.0\doublyLinkedList.dll
+D:\GIT\DSA\LinkedList\doublyLinkedList\bin\Debug\net9.0\doublyLinkedList.pdb
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.dll
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\refint\doublyLinkedList.dll
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.pdb
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\doublyLinkedList.genruntimeconfig.cache
+D:\GIT\DSA\LinkedList\doublyLinkedList\obj\Debug\net9.0\ref\doublyLinkedList.dll
