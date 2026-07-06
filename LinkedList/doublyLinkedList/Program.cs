@@ -14,7 +14,7 @@
         list.display();
         list.update(12,6);
         list.display();
-        list.delete(8);
+        list.delete(6);
         list.display();
     }
 }

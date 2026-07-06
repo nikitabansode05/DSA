@@ -16,13 +16,12 @@ public class LinkedList
         else
         {
             Node newNode=new Node();
-            Node shuffle=new Node();
-            shuffle=head;
+            
             newNode.data=data;
-            newNode.next=shuffle;
+            newNode.next=head;
+            newNode.previous=null;
+            head.previous=newNode;
             head=newNode;
-            head.previous=null;
-            shuffle=null;
         }
     }
 
@@ -48,8 +47,6 @@ public class LinkedList
                     {
                         current.previous.next=current.next;
                         current.next.previous=current.previous;
-                        // current.previous=null;
-                        // current.next=null;
                         break;
                     }
                     
