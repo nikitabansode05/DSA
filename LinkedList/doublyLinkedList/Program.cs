@@ -7,14 +7,18 @@
         list.insertfromFront(9);
         list.insertfromFront(8);
         list.insertfromFront(7);
-        list.display();
+        list.displayfromFront();
+        list.displayfromBack();
         list.insertfromBack(10);
         list.insertfromBack(11);
         list.insertfromBack(12);
-        list.display();
+        list.displayfromFront();
+        list.displayfromBack();
         list.update(12,6);
-        list.display();
+        list.displayfromFront();
+        list.displayfromBack();
         list.delete(6);
-        list.display();
+        list.displayfromFront();
+        list.displayfromBack();
     }
 }

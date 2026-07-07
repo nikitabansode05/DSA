@@ -1,8 +1,8 @@
 using System.Net.Http.Headers;
-
 public class LinkedList
 {
     public Node head{get;set;}
+    public Node tail{get;set;}
 
     public void insertfromFront(int data)
     {
@@ -12,6 +12,7 @@ public class LinkedList
             head.data=data;
             head.next=null;
             head.previous=null;
+            tail=head;
         }
         else
         {
@@ -22,6 +23,16 @@ public class LinkedList
             newNode.previous=null;
             head.previous=newNode;
             head=newNode;
+            Node current=head;
+            while (current != null)
+            {
+                if (current.next == null)
+                {
+                    tail=current;
+                    break;
+                }
+                current=current.next;
+            }
         }
     }
 
@@ -79,6 +90,7 @@ public class LinkedList
             head.data=data;
             head.next=null;
             head.previous=null;
+            tail=head;
         }
         else
         {
@@ -92,16 +104,30 @@ public class LinkedList
             current.next=newNode;
             newNode.previous=current;
             newNode.next=null;
+            tail=newNode;
         }
     } 
 
-    public void display()
+    public void displayfromFront()
     {
         Node current=head;
+        Console.WriteLine("Displaying from front");
         while (current != null)
         {
             Console.Write(current.data+"->");
             current=current.next;
+        }
+        Console.WriteLine();
+    }
+
+    public void displayfromBack()
+    {
+        Node current=tail;
+        Console.WriteLine("Displaying from back");
+        while (current!= null)
+        {
+            Console.Write(current.data+"->");
+            current=current.previous;
         }
         Console.WriteLine();
     }
