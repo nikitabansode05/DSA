@@ -56,11 +56,11 @@ public class LinkedList
         else
         {
             Node current=head;
-            while (current.next != head)
+            while (current.next!= head)
             {
                 if (head.data == data)
                 {
-                    head.next=head;
+                    head=head.next;
                 }
                 else if (current.next.data == data)
                 {
@@ -68,6 +68,7 @@ public class LinkedList
                 }
                 current=current.next;
             }
+            
         }
     }
 
