@@ -1,0 +1,15 @@
+D:\GIT\DSA\LinkedList\circularLinkedList\bin\Debug\net9.0\circularLinkedList.exe
+D:\GIT\DSA\LinkedList\circularLinkedList\bin\Debug\net9.0\circularLinkedList.deps.json
+D:\GIT\DSA\LinkedList\circularLinkedList\bin\Debug\net9.0\circularLinkedList.runtimeconfig.json
+D:\GIT\DSA\LinkedList\circularLinkedList\bin\Debug\net9.0\circularLinkedList.dll
+D:\GIT\DSA\LinkedList\circularLinkedList\bin\Debug\net9.0\circularLinkedList.pdb
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.AssemblyInfoInputs.cache
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.AssemblyInfo.cs
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.sourcelink.json
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.dll
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\refint\circularLinkedList.dll
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.pdb
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\circularLinkedList.genruntimeconfig.cache
+D:\GIT\DSA\LinkedList\circularLinkedList\obj\Debug\net9.0\ref\circularLinkedList.dll

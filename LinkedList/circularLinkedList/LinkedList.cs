@@ -10,6 +10,7 @@ public class LinkedList
     {
         if (head == null)
         {
+            head=new Node();
             head.data=data;
             head.next=head;
         }
@@ -39,6 +40,11 @@ public class LinkedList
             }
             current=current.next;
         }
+        if (current.data == oldData)
+        {
+            current.data=newData;
+        }
+
     }
 
     public void delete(int data)
@@ -56,12 +62,24 @@ public class LinkedList
                 {
                     head.next=head;
                 }
+                else if (current.next.data == data)
+                {
+                    current.next=current.next.next;
+                }
+                current=current.next;
             }
         }
     }
 
     public void display()
     {
-        
+        Node current=head;
+        while (current.next != head)
+        {
+            Console.Write(current.data+"->");
+            current=current.next;
+        }
+        Console.Write(current.data+"\n");
+        Console.WriteLine("*******************************");
     }
 }
