@@ -7,9 +7,9 @@ public class QueueInt
         queue=null;
     }
 
-    public QueueInt(int data)
+    public QueueInt(int length)
     {
-        queue=new int[data];
+        queue=new int[length];
     }
 
     public void insert(int data)

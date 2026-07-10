@@ -1,24 +1,41 @@
-﻿public class Program
+﻿using System.Collections;
+
+public class Program
 {
     public static void Main()
     {
-        QueueInt queue = new QueueInt(4);
-        queue.insert(2);
-        queue.display();
+        QueueInt queueInt = new QueueInt(4);
+        queueInt.insert(2);
+        queueInt.display();
 
-        queue.insert(3);
-        queue.insert(4);
-        queue.insert(5);
+        queueInt.insert(3);
+        queueInt.insert(4);
+        queueInt.insert(5);
 
-        queue.display();
+        queueInt.display();
 
-        queue.update(5,7);
-        queue.display();
+        queueInt.update(5,7);
+        queueInt.display();
 
-        queue.delete();
-        queue.display();
+        queueInt.delete();
+        queueInt.display();
 
-        queue.delete();
-        queue.display();
+        queueInt.delete();
+        queueInt.display();
+
+        QueueString queueString=new QueueString(4);
+        queueString.insert("Apple");
+        queueString.display();
+
+        queueString.insert("Mango");
+        queueString.insert("Nikita");
+        queueString.insert("Banana");
+        queueString.display();
+
+        queueString.update("Nikita","Lichi");
+        queueString.display();
+
+        queueString.delete();
+        queueString.display();
     }
 }
