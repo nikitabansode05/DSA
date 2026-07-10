@@ -1,0 +1,15 @@
+D:\GIT\DSA\Queue\bin\Debug\net9.0\Queue.exe
+D:\GIT\DSA\Queue\bin\Debug\net9.0\Queue.deps.json
+D:\GIT\DSA\Queue\bin\Debug\net9.0\Queue.runtimeconfig.json
+D:\GIT\DSA\Queue\bin\Debug\net9.0\Queue.dll
+D:\GIT\DSA\Queue\bin\Debug\net9.0\Queue.pdb
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.AssemblyInfoInputs.cache
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.AssemblyInfo.cs
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.sourcelink.json
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.dll
+D:\GIT\DSA\Queue\obj\Debug\net9.0\refint\Queue.dll
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.pdb
+D:\GIT\DSA\Queue\obj\Debug\net9.0\Queue.genruntimeconfig.cache
+D:\GIT\DSA\Queue\obj\Debug\net9.0\ref\Queue.dll
