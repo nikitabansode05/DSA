@@ -1,0 +1,15 @@
+D:\GIT\DSA\Queue\QueueUsingLinkedList\bin\Debug\net9.0\QueueUsingLinkedList.exe
+D:\GIT\DSA\Queue\QueueUsingLinkedList\bin\Debug\net9.0\QueueUsingLinkedList.deps.json
+D:\GIT\DSA\Queue\QueueUsingLinkedList\bin\Debug\net9.0\QueueUsingLinkedList.runtimeconfig.json
+D:\GIT\DSA\Queue\QueueUsingLinkedList\bin\Debug\net9.0\QueueUsingLinkedList.dll
+D:\GIT\DSA\Queue\QueueUsingLinkedList\bin\Debug\net9.0\QueueUsingLinkedList.pdb
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.AssemblyInfoInputs.cache
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.AssemblyInfo.cs
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.csproj.CoreCompileInputs.cache
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.sourcelink.json
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.dll
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\refint\QueueUsingLinkedList.dll
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.pdb
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\QueueUsingLinkedList.genruntimeconfig.cache
+D:\GIT\DSA\Queue\QueueUsingLinkedList\obj\Debug\net9.0\ref\QueueUsingLinkedList.dll
